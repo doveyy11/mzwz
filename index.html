@@ -14,7 +14,7 @@
     <!-- 导航栏 -->
     <nav class="sidebar">
         <ul>
-            <li><a href="index.html">电影简介</a></li>
+            <li><a href="index.html" id="movie-intro">电影简介</a></li>
             <li><a href="process.html">爬取过程</a></li>
             <li><a href="visualization.html">可视化展示</a></li>
         </ul>
@@ -24,6 +24,9 @@
     <main class="content">
         <h1 class="title">《某种物质》评论分析</h1>
         <button id="bgm-btn" class="bgm-button">🎵 播放音乐</button>
+
+        <!-- 显示电影简介文本 -->
+        <div id="movie-description" class="movie-description"></div>
     </main>
 
     <audio id="bgm" src="bgm.mp3" loop></audio>
@@ -31,3 +34,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
